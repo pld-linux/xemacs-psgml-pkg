@@ -10,12 +10,13 @@ Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	bf3badd3bf916f243b96d0bf5a93a452
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
-BuildArch:	noarch
-Conflicts:	xemacs-sumo
+BuildRequires:	texinfo
 Requires:	xemacs
 Requires:	xemacs-edit-utils-pkg
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	psgml
+Conflicts:	xemacs-sumo
+BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 PSGML is a major mode for editing SGML documents for XEmacs and Emacs.
@@ -53,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc lisp/psgml/ChangeLog
-%{_datadir}/xemacs-packages%{_sysconfdir}/*
-%{_infodir}/*
+%{_datadir}/xemacs-packages/etc/*
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.el*
+%{_infodir}/*.info*
