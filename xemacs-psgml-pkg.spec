@@ -16,6 +16,7 @@ Requires: 	xemacs
 Requires: 	xemacs-edit-utils-pkg
 BuildRoot:	/tmp/%{name}-%{version}-root
 BuildArch:	noarch
+Obsoletes:	psgml
 
 %description
 PSGML is a major mode for editing SGML documents for XEmacs and Emacs.
