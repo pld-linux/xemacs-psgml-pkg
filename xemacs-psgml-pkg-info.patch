@@ -1,0 +1,50 @@
+diff -Nru xemacs-psgml-pkg-1.14/man/psgml/psgml-api.texi xemacs-psgml-pkg-1.14.new/man/psgml/psgml-api.texi
+--- xemacs-psgml-pkg-1.14/man/psgml/psgml-api.texi	Wed Jan 14 07:37:11 1998
++++ xemacs-psgml-pkg-1.14.new/man/psgml/psgml-api.texi	Fri Jan  7 20:45:40 2000
+@@ -1,6 +1,6 @@
+ \input texinfo   @c -*-texinfo-*-
+ @c %**start of header
+-@setfilename ../info/psgml-api.info
++@setfilename ../../info/psgml-api.info
+ @settitle psgml-api
+ @c @setchapternewpage odd
+ @c %**end of header
+@@ -8,9 +8,10 @@
+ 
+ @ifinfo
+ @format
+-START-INFO-DIR-ENTRY
+-* PSGML-API: (psgml-api).  PSGML, the API documentation.
+-END-INFO-DIR-ENTRY
++@dircategory XEmacs Editor:
++@direntry
++* PSGML-API: (psgml-api).		PSGML, the API documentation
++@end direntry
+ @end format
+ @end ifinfo
+ 
+diff -Nru xemacs-psgml-pkg-1.14/man/psgml/psgml.texi xemacs-psgml-pkg-1.14.new/man/psgml/psgml.texi
+--- xemacs-psgml-pkg-1.14/man/psgml/psgml.texi	Fri Jul 10 11:28:24 1998
++++ xemacs-psgml-pkg-1.14.new/man/psgml/psgml.texi	Fri Jan  7 20:46:46 2000
+@@ -1,6 +1,6 @@
+ \input texinfo   @c -*-texinfo-*-
+ @c %**start of header
+-@setfilename ../info/psgml.info
++@setfilename ../../info/psgml.info
+ @settitle psgml
+ @c @setchapternewpage odd
+ @syncodeindex fn cp
+@@ -11,9 +11,10 @@
+ 
+ @ifinfo
+ @format
+-START-INFO-DIR-ENTRY
+-* PSGML: (psgml).          PSGML, a major mode for SGML documents.
+-END-INFO-DIR-ENTRY
++@dircategory XEmacs Editor:
++@direntry
++* PSGML: (psgml).			PSGML, a major mode for SGML documents
++@end direntry
+ @end format
+ @end ifinfo
+ 
