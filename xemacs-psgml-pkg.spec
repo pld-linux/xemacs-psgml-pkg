@@ -15,7 +15,7 @@ Conflicts:	xemacs-sumo
 Requires:	xemacs
 Requires:	xemacs-edit-utils-pkg
 Prereq:		/usr/sbin/fix-info-dir
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 PSGML is a major mode for editing SGML documents for XEmacs and Emacs.
