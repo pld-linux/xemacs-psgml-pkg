@@ -2,7 +2,7 @@ Summary:	Validated HTML/SGML editing
 Summary(pl):	Tryb edycji HTML/SGML
 Name:		xemacs-psgml-pkg
 %define 	srcname	psgml
-Version:	1.15
+Version:	1.16
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
