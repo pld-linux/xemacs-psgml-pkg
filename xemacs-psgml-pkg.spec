@@ -5,7 +5,7 @@
 ### EndComment
 
 Summary: 	Validated HTML/SGML editing.
-Summary(pl):	Validated HTML/SGML editing.
+Summary(pl):	Tryb edycji HTML/SGML.
 
 Name:    	xemacs-psgml-pkg
 %define 	srcname	psgml
