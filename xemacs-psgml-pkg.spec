@@ -5,14 +5,14 @@
 ### EndComment
 
 Summary: 	Validated HTML/SGML editing.
-Summary(pl):	Validated HTML/SGML editing.
+Summary(pl):	Tryb edycji HTML/SGML.
 
 Name:    	xemacs-psgml-pkg
 %define 	srcname	psgml
-Version: 	1.14
+Version: 	1.15
 Release:	1
 
-Patch0:		xemacs-psgml-pkg-info.patch
+Patch0:		%{name}-info.patch
 
 ### Preamble
 Copyright:	GPL
@@ -29,10 +29,10 @@ Prereq:  	/usr/sbin/fix-info-dir
 ### EndPreamble
 
 %description
-
+PSGML is a major mode for editing SGML documents for XEmacs and Emacs.
 
 %description -l pl 
-
+PSGML jest g³ownym trybem edycji dokumentów SGML dla XEmacsa i Emacsa.
 
 ### Main
 %prep
