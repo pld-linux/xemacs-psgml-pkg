@@ -29,7 +29,8 @@ PSGML jest g³ównym trybem edycji dokumentów SGML dla XEmacsa i Emacsa.
 %patch0 -p1
 
 %build
-(cd man/psgml; awk '/^\\input texinfo/ {print FILENAME}' * | xargs makeinfo)
+cd man/psgml
+awk '/^\\input texinfo/ {print FILENAME}' * | xargs makeinfo
 
 %install
 rm -rf $RPM_BUILD_ROOT
