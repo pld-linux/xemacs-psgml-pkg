@@ -2,7 +2,7 @@ Summary:	Validated HTML/SGML editing
 Summary(pl):	Tryb edycji HTML/SGML
 Name:		xemacs-psgml-pkg
 %define 	srcname	psgml
-Version:	1.23
+Version:	1.26
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -16,6 +16,7 @@ Conflicts:	xemacs-sumo
 Requires:	xemacs
 Requires:	xemacs-edit-utils-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Obsoletes:	psgml
 
 %description
 PSGML is a major mode for editing SGML documents for XEmacs and Emacs.
