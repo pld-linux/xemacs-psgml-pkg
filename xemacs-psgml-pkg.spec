@@ -3,7 +3,7 @@ Summary(pl):	Tryb edycji HTML/SGML
 Name:		xemacs-psgml-pkg
 %define 	srcname	psgml
 Version:	1.35
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
