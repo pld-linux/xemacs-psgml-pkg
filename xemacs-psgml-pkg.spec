@@ -19,7 +19,7 @@ Obsoletes:	psgml
 %description
 PSGML is a major mode for editing SGML documents for XEmacs and Emacs.
 
-%description -l pl 
+%description -l pl
 PSGML jest g³ównym trybem edycji dokumentów SGML dla XEmacsa i Emacsa.
 
 %prep
@@ -37,7 +37,7 @@ cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 mv -f  $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info/*.info* $RPM_BUILD_ROOT%{_infodir}
 rm -rf $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info
 
-gzip -9nf lisp/psgml/ChangeLog 
+gzip -9nf lisp/psgml/ChangeLog
 
 %clean
 rm -rf $RPM_BUILD_ROOT
