@@ -15,7 +15,7 @@ Release:	1
 Patch0:		%{name}-info.patch
 
 ### Preamble
-Copyright:	GPL
+License:	GPL
 Group:    	Applications/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 URL:      	http://www.xemacs.org
