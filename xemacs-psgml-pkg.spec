@@ -1,5 +1,5 @@
 Summary:	Validated HTML/SGML editing
-Summary(pl):	Tryb edycji HTML/SGML
+Summary(pl.UTF-8):   Tryb edycji HTML/SGML
 Name:		xemacs-psgml-pkg
 %define 	srcname	psgml
 Version:	1.35
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 PSGML is a major mode for editing SGML documents for XEmacs and Emacs.
 
-%description -l pl
-PSGML jest g≥Ûwnym trybem edycji dokumentÛw SGML dla XEmacsa i Emacsa.
+%description -l pl.UTF-8
+PSGML jest g≈Ç√≥wnym trybem edycji dokument√≥w SGML dla XEmacsa i Emacsa.
 
 %prep
 %setup -q -c
