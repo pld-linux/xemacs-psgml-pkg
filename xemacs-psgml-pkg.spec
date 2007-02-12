@@ -1,5 +1,5 @@
 Summary:	Validated HTML/SGML editing
-Summary(pl.UTF-8):   Tryb edycji HTML/SGML
+Summary(pl.UTF-8):	Tryb edycji HTML/SGML
 Name:		xemacs-psgml-pkg
 %define 	srcname	psgml
 Version:	1.35
