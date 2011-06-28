@@ -1,15 +1,16 @@
-diff -Nru xemacs-psgml-pkg-1.14/man/psgml/psgml-api.texi xemacs-psgml-pkg-1.14.new/man/psgml/psgml-api.texi
---- xemacs-psgml-pkg-1.14/man/psgml/psgml-api.texi	Wed Jan 14 07:37:11 1998
-+++ xemacs-psgml-pkg-1.14.new/man/psgml/psgml-api.texi	Fri Jan  7 20:45:40 2000
-@@ -1,6 +1,6 @@
+diff -ur man-orig/psgml/psgml-api.texi man/psgml/psgml-api.texi
+--- man-orig/psgml/psgml-api.texi	2003-01-18 13:08:45.000000000 +0100
++++ man/psgml/psgml-api.texi	2011-06-28 21:46:11.435618729 +0200
+@@ -1,7 +1,7 @@
  \input texinfo   @c -*-texinfo-*-
  @c %**start of header
+ @c XEmacs change
 -@setfilename ../info/psgml-api.info
 +@setfilename ../../info/psgml-api.info
+ @c @setfilename psgml-api.info
  @settitle psgml-api
  @c @setchapternewpage odd
- @c %**end of header
-@@ -8,9 +8,10 @@
+@@ -10,9 +10,10 @@
  
  @ifinfo
  @format
@@ -18,33 +19,35 @@ diff -Nru xemacs-psgml-pkg-1.14/man/psgml/psgml-api.texi xemacs-psgml-pkg-1.14.n
 -END-INFO-DIR-ENTRY
 +@dircategory XEmacs Editor:
 +@direntry
-+* PSGML-API: (psgml-api).		PSGML, the API documentation
++* PSGML-API: (psgml-api).      PSGML, the API documentation
 +@end direntry
  @end format
  @end ifinfo
  
-diff -Nru xemacs-psgml-pkg-1.14/man/psgml/psgml.texi xemacs-psgml-pkg-1.14.new/man/psgml/psgml.texi
---- xemacs-psgml-pkg-1.14/man/psgml/psgml.texi	Fri Jul 10 11:28:24 1998
-+++ xemacs-psgml-pkg-1.14.new/man/psgml/psgml.texi	Fri Jan  7 20:46:46 2000
-@@ -1,6 +1,6 @@
+Tylko w man/psgml: psgml-api.texi~
+diff -ur man-orig/psgml/psgml.texi man/psgml/psgml.texi
+--- man-orig/psgml/psgml.texi	2007-06-11 09:17:48.000000000 +0200
++++ man/psgml/psgml.texi	2011-06-28 21:47:53.747007606 +0200
+@@ -1,7 +1,7 @@
  \input texinfo   @c -*-texinfo-*-
  @c %**start of header
+ @c XEmacs change
 -@setfilename ../info/psgml.info
 +@setfilename ../../info/psgml.info
+ @c @setfilename psgml.info
  @settitle psgml
  @c @setchapternewpage odd
- @syncodeindex fn cp
-@@ -11,9 +11,10 @@
+@@ -13,9 +13,10 @@
  
  @ifinfo
  @format
 -START-INFO-DIR-ENTRY
--* PSGML: (psgml).          PSGML, a major mode for SGML documents.
--END-INFO-DIR-ENTRY
 +@dircategory XEmacs Editor:
 +@direntry
-+* PSGML: (psgml).			PSGML, a major mode for SGML documents
+ * PSGML: (psgml).          PSGML, a major mode for SGML documents.
+-END-INFO-DIR-ENTRY
 +@end direntry
  @end format
  @end ifinfo
  
+Tylko w man/psgml: psgml.texi~
