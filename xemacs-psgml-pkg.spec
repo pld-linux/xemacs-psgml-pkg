@@ -2,12 +2,12 @@ Summary:	Validated HTML/SGML editing
 Summary(pl.UTF-8):	Tryb edycji HTML/SGML
 Name:		xemacs-psgml-pkg
 %define 	srcname	psgml
-Version:	1.35
-Release:	2
+Version:	1.45
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	bf3badd3bf916f243b96d0bf5a93a452
+# Source0-md5:	c399c8fe6df74743e230f0d4b2f9abe9
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
 BuildRequires:	texinfo
@@ -26,7 +26,7 @@ PSGML jest głównym trybem edycji dokumentów SGML dla XEmacsa i Emacsa.
 
 %prep
 %setup -q -c
-%patch0 -p1
+%patch0 -p0
 
 %build
 cd man/psgml
